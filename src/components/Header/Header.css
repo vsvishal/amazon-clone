@@ -1,0 +1,133 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__top {
+  height: 60px;
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 18px 20px 0 20px;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.header__searchInput {
+  height: 36px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.header__searchInput:active {
+  border: none;
+}
+
+.header__searchIcon {
+  padding: 6px;
+  height: 24px !important;
+  background-color: #cd9042;
+}
+
+.header__nav,
+.header__nav span {
+  display: flex;
+  justify-content: center;
+}
+
+.header__link {
+  color: white;
+  text-decoration: none;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 15px;
+  color: white;
+}
+
+.header__optionLineOne {
+  font-size: 12px;
+}
+
+.header__optionLineTwo {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-right: 15px;
+}
+
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__flag {
+  width: 22px;
+  transform: scale(1.5);
+  position: relative;
+  display: inline-block;
+  height: 18px;
+  margin-left: 15px;
+  margin-right: 3px;
+  background-image: url("https://m.media-amazon.com/images/G/01/AUIClients/InternationalCustomerPreferencesNavAssets-icp_sprite-7285cab5f8342a9a80f19b7ae5b155f77772ffc6._V2_.png");
+  background-position: 0 -166px;
+}
+
+.header__bottom {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  height: 40px;
+  color: white;
+  background-color: #232f3e;
+}
+
+.header__address {
+  display: flex;
+}
+
+.header__address-icon {
+  vertical-align: middle;
+}
+
+.header__address-icon > .MuiSvgIcon-root {
+  font-size: 2rem;
+}
+
+.header__bottom-nav {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.header__bottom-nav > span {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.header__left-nav > .MuiSvgIcon-root {
+  font-size: 2em !important;
+}
